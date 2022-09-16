@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | [Social media dashboard with theme switcher]</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="">
+
+
+  <main class="dashboard py-3">
+    <div class="container">
+      <div class="flex py-3 dashboard-title">
+        <div class="dashboard-header">
+          <h1 class="c-dark">Social Media Dashboard</h1>
+          <p class="c-gray">Total Followers: 23,004</p>
+        </div>
+
+        <div class="toggle">
+          <p class="c-gray">Dark Mode</p>
+          <button id="toggle-btn" class="toggle-btn"></button>
+        </div>
+
+      </div>
+
+      <div class="grid py-3 main-social">
+
+        <div class="box card-bg py-3">
+          <div class="box-head">
+
+            <img src="./images/icon-facebook.svg" alt="facebook">
+            <span class="c-gray">@nathanf</span>
+
+          </div>
+
+          <div class="box-content">
+            <p class="c-dark">1987</p>
+            <span class="c-gray">Followers</span>
+          </div>
+
+          <div class="box-footer">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="c-green">
+              12 Today
+            </span>
+          </div>
+        </div>
+        <div class="box card-bg py-3">
+          <div class="box-head">
+
+            <img src="./images/icon-twitter.svg" alt="facebook">
+            <span class="c-gray">@nathanf</span>
+
+          </div>
+
+          <div class="box-content">
+            <p class="c-dark">1044</p>
+            <span class="c-gray">Followers</span>
+          </div>
+
+          <div class="box-footer">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="c-green">
+              99 Today
+            </span>
+          </div>
+        </div>
+        <div class="box card-bg py-3">
+          <div class="box-head">
+
+            <img src="./images/icon-instagram.svg" alt="facebook">
+            <span class="c-gray">@realnathanf</span>
+
+          </div>
+
+          <div class="box-content">
+            <p class="c-dark"> 11k</p>
+            <span class="c-gray">Followers</span>
+          </div>
+
+          <div class="box-footer">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="c-green">
+              1099 Today
+            </span>
+          </div>
+        </div>
+        <div class="box card-bg py-3">
+          <div class="box-head">
+
+            <img src="./images/icon-youtube.svg" alt="facebook">
+            <span class="c-gray">Nathan F.</span>
+
+          </div>
+
+          <div class="box-content">
+            <p class="c-dark">8239</p>
+            <span class="c-gray">Subscribers</span>
+          </div>
+
+          <div class="box-footer">
+            <img src="./images/icon-down.svg" alt="">
+            <span class="c-red">
+              144 Today
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="overview-header">
+        <h2 class="c-gray">Overview - Today</h2>
+      </div>
+
+      <div class="grid py-3 overview-section">
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Page Views</h3>
+            <img src="./images/icon-facebook.svg" alt="facebook">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">87</p>
+            <span class="c-green">
+              <img src="./images/icon-up.svg" alt="">
+              3%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Likes</h3>
+            <img src="./images/icon-facebook.svg" alt="facebook">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">52</p>
+            <span class="c-red">
+              <img src="./images/icon-down.svg" alt="">
+              2%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Likes</h3>
+            <img src="./images/icon-instagram.svg" alt="icon-instagram">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">5462</p>
+            <span class="c-green">
+              <img src="./images/icon-up.svg" alt="">
+              2257%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Page Views</h3>
+            <img src="./images/icon-instagram.svg" alt="icon-instagram">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">52k</p>
+            <span class="c-green">
+              <img src="./images/icon-up.svg" alt="">
+              1375%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Retweets</h3>
+            <img src="./images/icon-twitter.svg" alt="icon-twitter">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark"> 117</p>
+            <span class="c-green">
+              <img src="./images/icon-up.svg" alt="">
+              303%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Likes</h3>
+            <img src="./images/icon-twitter.svg" alt="icon-twitter">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">507</p>
+            <span class="c-red">
+              <img src="./images/icon-down.svg" alt="">
+              553%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Likes</h3>
+            <img src="./images/icon-youtube.svg" alt="icon-youtube">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">107</p>
+            <span class="c-red">
+              <img src="./images/icon-down.svg" alt="">
+              19%</span>
+          </div>
+        </div>
+
+        <div class="box card-bg ">
+          <div class="flex">
+            <h3 class="c-gray">Total Views</h3>
+            <img src="./images/icon-youtube.svg" alt="icon-youtube">
+          </div>
+          <div class="flex overview-number">
+            <p class="c-dark">1407</p>
+            <span class="c-green">
+              <img src="./images/icon-up.svg" alt="">
+              12%</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <script>
+
+    const toggleBtn = document.querySelector('#toggle-btn');
+    const body = document.querySelector('body');
+
+
+    toggleBtn.addEventListener('click', () => {
+
+      body.classList.toggle('dark')
+      toggleBtn.classList.toggle('active')
+    })
+
+
+  </script>
+
+</body>
+
+</html>
